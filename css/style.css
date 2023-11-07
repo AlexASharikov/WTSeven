@@ -1,0 +1,210 @@
+body
+{
+    font-family: 'Balsamiq Sans';
+}
+nav
+{ 
+    background-color: black;
+    margin: -10px;
+    padding: 1px;
+    font-family: 'Balsamiq Sans';
+    font-size: large;
+}
+.nav-flex
+{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    flex-wrap: nowrap;
+    padding-right: 150px;
+}
+.nav-flex-footer.first
+{
+    margin-left: 65px;
+}
+.nav-flex-footer
+{
+    list-style-type: none;
+    margin-top: 50px;
+    margin: 15px;
+}
+.nav-flex-footer.copyright
+{
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.nav-flex-item
+{
+    list-style-type: none;
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.nav-flex-item.competition
+{
+    margin-top: 40px;
+    margin-right: 200px;
+}
+.nav-flex-item.subs
+{
+    margin-right: 270px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+.nav-flex-item.logo
+{
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+img.logo
+{
+    display: block;
+    height: 50px;
+}
+img.social
+{
+    display: block;
+    width: 50px;
+}
+img.compet
+{
+    display: block;
+    width: 200px;
+}
+header
+{
+    margin-top: 7px;
+    margin: -10px;
+    padding-top: 140px;
+    background-image: url(../images/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+h1
+{
+    color: #FFFFFF;
+}
+h3
+{
+    color: #FFFFFF;
+}
+.title-font
+{
+    font-family: 'Brygada 1918';
+}
+footer
+{
+    margin-right: -100px;
+}
+.two-column
+{
+    margin-left: 100px;
+    height: 300px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style-type: disc;
+}
+table
+{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th
+{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(37, 37, 37);
+    color: #FFFFFF;
+}
+td.last
+{
+    padding-left: 70px;
+    padding-right: 80px;
+    text-align: left;
+}
+td
+{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: azure;
+}
+td.nechet
+{
+    background-color: rgb(128, 156, 80);
+}
+.button 
+{
+    margin-left: 500px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    background-color: gray;
+    text-transform: uppercase;
+    color: white; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px; 
+   }
+.intro
+{
+    padding-left: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.intro.black
+{
+    background-color: black;
+    color: #FFFFFF;
+    margin: -15px;
+    padding-left: 115px;
+}
+p.left
+{
+    margin-right: 100px;
+}
+p.subs
+{
+    text-align: center;
+}
+img.left
+{
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 200px;
+}
+img.right
+{
+    float: left;
+    margin-right: 50px;
+    height: 350px;
+}
+/* balsamiq-sans-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/balsamiq-sans-v14-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* brygada-1918-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Brygada 1918';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/brygada-1918-v22-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
